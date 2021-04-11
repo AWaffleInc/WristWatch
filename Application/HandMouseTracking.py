@@ -52,6 +52,7 @@ while True:
             notification.notify(
                 title="Wrist Watch",
                 message="Your wrist is in an unhealthy position!\n" + str(hour) + ":" + str(minute) + ":" + str(second),
+                app_icon="CitrusCircle.ico",
                 timeout=60  # Notification lasts a minute
             )
 
