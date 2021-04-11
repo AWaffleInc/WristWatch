@@ -45,10 +45,9 @@ while True:
             time = dt.datetime.now()
             notification.notify(
                 title="Wrist Watch",
-                message="Your wrist is in an unhealthy position! " + str(dt.datetime.now()),
+                message="Your wrist is in an unhealthy position!\n" + str(dt.datetime.now()),
                 timeout=60  # Notification lasts a minute
             )
-
 
     # Display
     cv2.imshow('Video', frame)
