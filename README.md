@@ -3,6 +3,7 @@
 A program that track the user's hand while using a computer mouse, detecting whether or not the user's wrist is bend, which is one of the leading cause of Carpal Tunnel Syndrome. 
 
 Usage: 
+- Download HandMouseTracking.py and HandMouseCascade.xml 
 - Run the HandMouseTracking.py 
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
