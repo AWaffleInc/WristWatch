@@ -14,6 +14,7 @@ anterior = 0
 time = dt.datetime.min
 
 timeDelay = 10
+enableNotif = True
 
 while True:
     if not video_capture.isOpened():
@@ -41,7 +42,7 @@ while True:
         log.info("faces: "+str(len(hands))+" at "+str(dt.datetime.now()))
 
         duration = dt.datetime.now() - time
-        if duration.total_seconds() > timeDelay:
+        if duration.total_seconds() > timeDelay && enableNotif:
             time = dt.datetime.now()
 
             hour = time.hour
